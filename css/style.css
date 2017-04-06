@@ -240,7 +240,7 @@ td:nth-of-type(even) {
 -------------------------------------------------------------- */
 .grid-sizer,
 .grid-item {
-    width: 40%;
+    width: 39%;
     margin-bottom: 10%;
     margin-right: 5%;
     margin-left: 5%;
