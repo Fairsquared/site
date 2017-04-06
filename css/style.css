@@ -240,17 +240,16 @@ td:nth-of-type(even) {
 -------------------------------------------------------------- */
 
 .example-image {
-  width: 150px;
-  height: 150px;
-}
-
-.example-image-link {
-  width: 150px;
-  height: 150px;
+  width: 170px;
   margin: 0;
   display: inline-block;
   margin-bottom: 20px;
   margin-right: 20px;
+}
+
+.example-image-link {
+  text-decoration: none;
+    border-bottom: 0px; !important
 }
 
 .example-image-link:nth-of-type(4n+0) {
