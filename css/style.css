@@ -240,10 +240,10 @@ td:nth-of-type(even) {
 -------------------------------------------------------------- */
 .grid-sizer,
 .grid-item {
-    width: 39%;
-    margin-bottom: 10%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 150px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
     border: 0px solid red;
 }
 .example-image-link {
@@ -535,4 +535,17 @@ header {
 }
 .home-icons:hover {
     opacity: 1;
+}
+
+@media screen and (max-width: 460px) {
+    
+    .grid-item {
+    width: 144px;
+    vertical-align: middle;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-right: 0; 
+    margin-left: 0;
+    }
+    
 }
