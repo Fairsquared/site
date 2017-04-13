@@ -246,6 +246,13 @@ td:nth-of-type(even) {
     margin-left: 20px;
     border: 0px solid red;
 }
+.grid-item-2 {
+    width: 230px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 0px solid red;
+}
 .example-image-link {
   text-decoration: none;
   border-bottom: 0px; !important
@@ -547,5 +554,11 @@ header {
     margin-right: 0; 
     margin-left: 0;
     }
-    
+    .grid-item-2 {
+    width: 180px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 0px solid red;
+}
 }
