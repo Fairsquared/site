@@ -245,6 +245,7 @@ td:nth-of-type(even) {
     margin-right: 20px;
     margin-left: 20px;
     border: 0px solid red;
+    vertical-align: middle;
 }
 .grid-item-2 {
     width: 230px;
@@ -252,6 +253,7 @@ td:nth-of-type(even) {
     margin-right: 20px;
     margin-left: 20px;
     border: 0px solid red;
+    vertical-align: middle;
 }
 .example-image-link {
   text-decoration: none;
@@ -556,6 +558,7 @@ header {
     }
     .grid-item-2 {
     width: 180px;
+        vertical-align: middle;
     margin-bottom: 30px;
     margin-right: 20px;
     margin-left: 20px;
